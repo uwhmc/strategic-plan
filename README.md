@@ -16,7 +16,8 @@ showcases the priority-area activities we'll advance over the next three years.
    (Housing; Health & Well-Being; Early Childhood & Child Care), cross-cutting
    organizational strategies, and the VOAD / VITA / Volunteer United community programs.
 4. **How We Stay Accountable** — our review and reporting cadence.
-5. **Be the Way** — a Give / Volunteer / Partner / Advocate call to action.
+5. **Be the Way** — a Give / Volunteer / Partner / Advocate call to action, plus a
+   "Read the Full Plan (PDF)" link.
 
 ## Project structure
 
@@ -24,8 +25,7 @@ showcases the priority-area activities we'll advance over the next three years.
 uwhmc-strategic-plan/
 ├── index.html            # The complete page (HTML + CSS, no build step)
 ├── assets/
-│   ├── logo-white.png    # United Way logo — used on dark backgrounds
-│   └── logo-color.png    # United Way full-color logo
+│   └── logo-white.png    # United Way logo (white wordmark) — used on the dark blue bar & footer
 └── README.md
 ```
 
@@ -48,6 +48,8 @@ No build tools or dependencies. Either:
 
 All content and styling live in `index.html`. Common edits:
 
+- **Full-plan PDF link** — search for `Read the Full Plan`; the URL appears in the hero and
+  the call-to-action.
 - **Contact / CTA links** — search for `tel:` and `mailto:` near the bottom of the file.
 - **Goals and targets** — each priority area is a `<div class="priority ...">` block.
 - **Colors** — brand colors are defined once as CSS variables in the `:root { ... }` block
